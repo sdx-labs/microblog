@@ -2,3 +2,5 @@ microvenv
 microvenv/
 __pycache__/
 __pycache__
+blog/__pycache__
+myblog/__pycache__

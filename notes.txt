@@ -1,0 +1,23 @@
+microblog/
+├── blog/                          # new app directory 
+│   ├── __init__.py                # marks the directory as a python package
+│   ├── admin.py                   # used to define how models are displayed in the admin panel
+│   ├── apps.py                    # configuration for the app
+│   ├── migrations/                # directory for database migrations
+│   │   └── __init__.py            # marks the migrations directory as a python package
+│   ├── models.py                  # where your blog models are defined
+│   ├── tests.py                   # used for writing test cases
+│   ├── views.py                   # where views (controllers) are defined
+│   └── urls.py                    # created manually for URL routing, 
+├── myblog/                        # Django project directory
+│   ├── __init__.py                
+│   ├── asgi.py
+│   ├── settings.py                # main project settings file                
+│   ├── urls.py                    # main project URL routing
+│   ├── wsgi.py                    
+├── manage.py                      # Django project management script
+├── microvenv/                     # virtual environment directory
+│   └── ...                        
+├── README.md                      
+├── requirements.txt              # dependencies
+├── __pycache__/                  # python bytecode cache
